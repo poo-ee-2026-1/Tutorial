@@ -42,3 +42,67 @@ Depois de adicionar os arquivos:
 ```bash
 Entrega parcial do projeto
 Esse cuidado evita trabalhar em uma versão desatualizada do projeto. O VS Code oferece operações de fetch, pull e push na integração de controle de versão.
+
+## Opção 2 — Enviar e atualizar código pelo VS Code ou outro editor
+
+Essa é a opção mais indicada para quem vai programar com frequência. O VS Code possui integração nativa com Git e permite revisar alterações, preparar arquivos para commit, registrar commits e fazer push/pull sem depender apenas do terminal.
+
+### 1. Clonar o repositório do grupo no computador
+
+No repositório do GitHub, clicar em **Code** e copiar a URL do repositório.
+
+No terminal, executar:
+
+```bash
+git clone https://github.com/poo-ee-2026-1/NOME-DO-REPOSITORIO.git
+
+Depois entrar na pasta:
+
+cd NOME-DO-REPOSITORIO
+
+A lógica do GitHub é que o trabalho local seja publicado no repositório remoto por meio de commits e push.
+
+2. Abrir a pasta no VS Code
+
+Abrir a pasta clonada no VS Code. Quando o VS Code detecta que a pasta é um repositório Git, ele ativa automaticamente os recursos de controle de versão.
+
+3. Criar ou alterar os arquivos do projeto
+
+O grupo pode então criar e editar normalmente os arquivos do sistema, por exemplo:
+
+main.cpp
+Aluno.cpp
+Aluno.h
+Sistema.cpp
+Sistema.h
+README.md
+4. Preparar e registrar as alterações
+
+No VS Code, abrir a aba Source Control. O editor mostra os arquivos alterados. Depois:
+
+revisar as mudanças;
+clicar no + para preparar os arquivos;
+escrever a mensagem de commit;
+confirmar o commit.
+
+O VS Code documenta exatamente esse fluxo de stage e commit pela interface.
+
+5. Enviar as alterações para o GitHub
+
+Após o commit, fazer o push. No VS Code, isso pode ser feito pela opção Push, pelo menu de ações, ou pelo ícone de sincronização. A documentação do VS Code informa que o push envia os commits locais para o repositório remoto.
+
+Se o grupo preferir usar terminal dentro do VS Code ou em outro editor, o fluxo básico é:
+
+git add .
+git commit -m "Mensagem clara da alteração"
+git push origin main
+
+O GitHub documenta que o git push normalmente é feito com o remoto e a branch, como em git push origin main.
+
+6. Atualizar o código antes de continuar trabalhando
+
+Antes de começar novas alterações, o grupo deve baixar a versão mais recente do repositório. No VS Code isso pode ser feito por pull ou pela sincronização; no terminal:
+
+git pull origin main
+
+Esse cuidado evita trabalhar em uma versão desatualizada do projeto. O VS Code oferece operações de fetch, pull e push na integração de controle de versão.
