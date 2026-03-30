@@ -20,7 +20,7 @@ Entrar no GitHub e abrir o repositório correspondente ao grupo, por exemplo:
 - `G7`
 - `G12`
 
----
+
 
 ### 2. Fazer o primeiro envio dos arquivos
 
@@ -30,7 +30,7 @@ Na página principal do repositório:
 2. clicar em **Upload files**;
 3. arrastar os arquivos para a página ou selecionar manualmente no computador.
 
----
+
 
 ### 3. Confirmar o envio
 
@@ -44,9 +44,11 @@ Entrega parcial do projeto
 ```
 Esse cuidado evita trabalhar em uma versão desatualizada do projeto. O VS Code oferece operações de fetch, pull e push na integração de controle de versão.
 
+---
+
 ## Opção 2 — Enviar e atualizar código pelo VS Code ou outro editor
 
-Essa é a opção mais indicada para quem vai programar com frequência. O VS Code possui integração nativa com Git e permite revisar alterações, preparar arquivos para commit, registrar commits e fazer push/pull sem depender apenas do terminal.
+Indicada para quem vai programar com frequência. O VS Code possui integração nativa com Git e permite revisar alterações, preparar arquivos para commit, registrar commits e fazer push/pull sem depender apenas do terminal.
 
 ### 1. Clonar o repositório do grupo no computador
 
@@ -105,7 +107,7 @@ O GitHub documenta que o git push normalmente é feito com o remoto e a branch, 
 6. Atualizar o código antes de continuar trabalhando
 
 Antes de começar novas alterações, o grupo deve baixar a versão mais recente do repositório. No VS Code isso pode ser feito por pull ou pela sincronização; no terminal:
-
+```bash
 git pull origin main
-
+```
 Esse cuidado evita trabalhar em uma versão desatualizada do projeto. O VS Code oferece operações de fetch, pull e push na integração de controle de versão.
