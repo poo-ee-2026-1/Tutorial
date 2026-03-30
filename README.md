@@ -111,3 +111,8 @@ Antes de começar novas alterações, o grupo deve baixar a versão mais recente
 git pull origin main
 ```
 Esse cuidado evita trabalhar em uma versão desatualizada do projeto. O VS Code oferece operações de fetch, pull e push na integração de controle de versão.
+
+
+----
+Apostila de apoio:
+https://www.alura.com.br/apostila-java-orientacao-objetos
